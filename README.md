@@ -14,7 +14,7 @@ Table of Contents
 10.	Test Accounts
 11.	How to Use
 12.	Contributing
-13.	Team
+
 
 
 1.Overview
@@ -190,8 +190,8 @@ php -S localhost:8000 -t php
 
 Change these in production.
 •	Admin — username: admin, password: 123456 (hardcoded shortcut in login.php)
-•	Employee — username: salman, password: 123456
-•	Customer — username: apple, password: 123456
+•	Employee — username: appl, password: 123456
+•	Customer — username: tanveer, password: 123456
 
 11.How to Use
 
@@ -208,10 +208,4 @@ Change these in production.
 3.	Commit: git commit -m "feat: add X"
 4.	Push: git push origin feature-name
 5.	Open a Pull Request
-
-13.Team
-
-•	Md. Mahamodul Hasan Taj — Admin — github.com/Taj22-47271-1
-•	Md. Arshad Islam — Employee — github.com/arshad055
-•	Salman Arefin — Customer — github.com/salmanarefin
 
