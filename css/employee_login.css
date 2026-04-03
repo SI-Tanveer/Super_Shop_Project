@@ -1,0 +1,98 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html, body {
+    font-family: Arial, sans-serif;
+    background: #f2fff5;
+    color: #1b4332;
+    line-height: 1.6;
+}
+
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 16px;
+}
+
+.login-card {
+    background: #ffffff;
+    border: 2px solid #1b4332;
+    border-radius: 12px;
+    padding: 32px 24px;
+    max-width: 400px;
+    width: 100%;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+    text-align: center;
+}
+
+.login-card .title {
+    font-size: 1.6rem;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+label {
+    display: flex;
+    flex-direction: column;
+    font-weight: 600;
+    font-size: 0.95rem;
+}
+
+input {
+    padding: 10px 12px;
+    margin-top: 6px;
+    border: 1px solid #1b4332;
+    border-radius: 8px;
+    outline: none;
+    font-size: 1rem;
+}
+
+input:focus {
+    border-color: #74c69d;
+}
+
+
+.btn {
+    padding: 10px 16px;
+    border-radius: 8px;
+    background: #74c69d;
+    border: 1px solid #1b4332;
+    color: #fff;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background 0.2s, transform 0.1s;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.btn:hover {
+    background: #1b4332;
+    transform: translateY(-1px);
+}
+
+
+.error-msg {
+    background: #ffccd5;
+    color: #7f1d1d;
+    padding: 10px 12px;
+    border-radius: 8px;
+    margin-bottom: 16px;
+    font-weight: 600;
+    font-size: 0.95rem;
+    text-align: center;
+}

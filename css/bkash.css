@@ -1,0 +1,151 @@
+
+.wallet-box {
+    padding: var(--s-5);
+    margin-top: var(--s-3);
+}
+
+.wallet-head {
+    margin-bottom: var(--s-3);
+}
+
+.wallet-title {
+    margin: 0;
+    font-size: 18px;
+    font-weight: 900;
+    color: #8fc0ff;
+    letter-spacing: .2px;
+}
+
+.wallet-sub {
+    margin: 4px 0 0;
+    color: #9fb2cc;
+    font-size: 13px;
+}
+
+
+.wallet-tabs {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin: 10px 0 var(--s-3);
+}
+
+.w-tab {
+    padding: 10px 14px;
+    border-radius: 999px;
+    border: 1px solid #2a406e;
+    background: #193056;
+    color: #cfe3ff;
+    font-weight: 800;
+    letter-spacing: .2px;
+    transition: background .2s, color .2s, border-color .2s, transform .2s, box-shadow .2s;
+}
+
+.w-tab:hover {
+    background: #234070;
+    border-color: #4a6db1;
+    transform: translateY(-1px);
+    cursor: pointer;
+}
+
+.w-tab.active {
+    background: var(--primary, #2f86ff);
+    color: #07122a;
+    border-color: transparent;
+    box-shadow: 0 6px 16px rgba(47, 134, 255, .35);
+}
+
+
+.wallet-form {
+    display: none;
+}
+
+.wallet-form.show {
+    display: block;
+}
+
+.wallet-form .label {
+    color: #8fb4ff;
+}
+
+.wallet-form .input {
+    background: #0f1a34;
+    color: #eaf3ff;
+    border: 1px solid #25365f;
+}
+
+.wallet-form .input:hover {
+    border-color: #3a60b0;
+}
+
+.wallet-form .input:focus {
+    border-color: var(--primary, #2f86ff);
+    box-shadow: 0 0 0 3px rgba(47, 134, 255, .25);
+}
+
+
+.wallet-steps {
+    margin: var(--s-3) 0 var(--s-3);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.step-line {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    color: #cfe3ff;
+    background: #0f1a34;
+    border: 1px dashed #2a406e;
+    padding: 10px 12px;
+    border-radius: 10px;
+}
+
+.step-line span {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    font-weight: 900;
+    font-size: 12px;
+    background: #2f86ff;
+    color: #07122a;
+    box-shadow: 0 3px 10px rgba(47, 134, 255, .35);
+}
+
+.step-line code {
+    color: #a9c9ff;
+}
+
+.step-line em {
+    color: #a9c9ff;
+    font-style: normal;
+}
+
+
+.wallet-note {
+    margin-top: 6px;
+    font-size: 12px;
+    color: #9fb2cc;
+    opacity: .9;
+}
+
+
+.w-tab[data-provider="bkash"].active {
+
+    background: #ff3b8d;
+   
+    color: #10091a;
+    box-shadow: 0 8px 22px rgba(255, 59, 141, .35);
+}
+
+.w-tab[data-provider="nagad"].active {
+ 
+    background: #ff9a3b;
+   
+    color: #100a05;
+    box-shadow: 0 8px 22px rgba(255, 154, 59, .35);
+}
